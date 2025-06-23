@@ -1,0 +1,8 @@
+## LEVANTAR PROYECTO EN SEGUNDO PLANO Y HACIENDO BUILD DE LAS IMAGENES
+-   docker compose up -d --build
+
+## ELIMINAR CONTENEDORES, VOLUMENES, IMAGENES Y REDES INTERNAS
+-   docker compose down -v --rmi all
+
+## VER LOGS DE POSTGRES EN DOCKER
+-   docker logs tarea3
